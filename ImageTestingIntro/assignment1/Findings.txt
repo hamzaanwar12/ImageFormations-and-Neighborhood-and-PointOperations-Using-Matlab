@@ -1,0 +1,36 @@
+a. original_image:
+	It contains the file that is selected to be processed or to pass under various operations
+
+b. transform1_image (get from part i):
+	It Contains the brighter Image because it has been intesified with the given formula 
+	s = r + log(r) * 20. 
+	So it produces the brighter verison of the original image(a).
+	
+c. transform2_image (get from part ii):
+	It Contains the Dull Image because it has been de-intesified with the given formula 
+	s = r * (2/log(r)). 
+	So it produces the dull or dark verison of the original image(a).
+
+d. mask_image (get from part iii):
+	This image conatined the masked Image or you can say in other words that it only just 
+	identified the edges in the originally provide image.
+	So, it provides only edges based image of original image 
+
+e. sharp_image_k1 (get from part iii):
+	This image conatined the masked Image plus the original mage or you can say in other words
+ 	that it only produces the sharpen mage of originla images because it added th original image and the 
+	edged based maked image. So, it provides only 1 scale sharpen image of original image.
+ 
+f. sharp_image_k5 (get from part iii):
+	This image conatined the masked Image scaled by factor 5 plus the original mage or you can say in other 	words that it only produces the sharpen mage of original image because it added th original image 
+	and the scaled by 5 edged based masked image. 
+	So, it provides only 5 scale sharpen image of original image more sharpen than the sharp_image_k1 
+
+g. noisy_image (get from part iv):
+	It just conatians the added noise in the form of white and black dots as noise in the original image.
+
+h. averaging_image (get from part v):
+	In this case the smoothing fulte has been applie to the image by averaging but it also causes the image to 	get blur and froms the averaging image of original one provided.
+
+i. median_image (get from part vi):
+	It also smoothes the image but without hetting it blur and hence produce the medain image.
